@@ -1,0 +1,38 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  background-color: #e5e5e5;
+}
+body .container {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+}
+body .container .header {
+  font-size: 1.7rem;
+  color: #7e7c7c;
+}
+body .container .value {
+  display: flex;
+  justify-content: center;
+  font-size: 5rem;
+  color: #8a8a8a;
+}
+body .container .buttons {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+body .container .buttons button {
+  padding: 5px 20px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=styles.css.map */
